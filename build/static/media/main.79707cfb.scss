@@ -1,0 +1,42 @@
+
+@import 'bulma/sass/utilities/_all';
+@import 'bulma/sass/components/navbar';
+@import 'bulma/sass/components/message';
+@import 'bulma/sass/elements/table';
+@import 'bulma/sass/elements/button';
+@import 'bulma/sass/elements/form';
+@import 'bulma/sass/elements/other';
+@import 'bulma/sass/base/generic';
+@import 'bulma/sass/grid/columns';
+
+$site-title-font: "Arial Black", sans-serif;
+$bg-color-main: #F5F5F5;
+
+html, body {
+  background-color: $bg-color-main;
+  height: 100%;
+  margin: 0
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.page-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.input {
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+}
+
+.remove-item {
+  float: right;
+}
+
